@@ -1,0 +1,18 @@
+.oddelem{
+    background-color: pink;
+    font-family: Verdana, sans-serif;
+}
+.oddelem.thirdelem{
+    font-size: 24px;
+}
+
+.fourelem{
+    font-weight: bold;
+    background-color: lightgreen;
+    font-size: 24px;
+}
+.scndelem{
+    color: blue;
+    font-size: 36px;
+
+}
