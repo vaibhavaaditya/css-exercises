@@ -13,7 +13,7 @@ body {
 .footer {
   height: 72px;
   background: #eee;
-  color: darkmagenta;
+  color: darkmagenta; 
 }
 
 .sidebar {
@@ -26,3 +26,64 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* solution */
+ul{
+  margin:0;
+  padding:0;
+}
+
+a{
+  text-decoration: none;
+  color:white;
+}
+
+li{
+  list-style: none;
+  padding: 10px;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  font-size: 32px;
+  font-weight: bold;
+  align-items: center;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content{
+  display: flex;
+  flex:1;
+}
+
+.content .sidebar{
+  flex-shrink: 0;
+  
+}
+
+.main_content{
+  display: flex;
+  row-gap: 10px;
+  column-gap: 10px;
+  flex-wrap: wrap;
+  margin:10px;
+}
+
+.main_content .card{
+  width: 300px;
+  padding: 10px;
+}
+
+
